@@ -1,0 +1,89 @@
+ /* Inicio del comentario
+    body 
+    {
+        color:deeppink ;
+        text-align: center;
+        font-family: "Arial"; 
+    }    
+Final del comentario */
+
+body
+{
+    background: #1e1f24;
+    /* Inicio del Comentario
+    En background agregue <<url("../imagenes/dragon.png")
+    no-repeat center center>> debido a desiciones esteticas.
+    No pertenece al codigo original de la clase de 
+    git y github
+    Final del Comentario*/
+    color:#333;
+    text-align: center;
+    font-family:Arial;    
+    font-size: 20px;
+    margin:0;
+    padding:0;
+}
+
+#cabecera
+{
+    background: #37488b;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#cabecera #logo 
+{
+    width: 40px;
+    vertical-align: middle;
+}
+
+#cabecera #tagline 
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+#container
+{
+    width: 90%;
+    /* Inicio del comentario
+    width: 70%;
+    El width original es del 70%, 
+    pero por razones de gusto del programador 
+    (Josue Barreno) lo aumentó al 90%
+    Final del comentario */
+    padding: 0;
+    text-align: left;
+    border: 1px solid #DDD;
+    margin: 0 auto;
+}
+
+#container h1
+{
+    font-size: 30px;
+    text-align: center;
+}
+
+#post
+{
+    background: whitesmoke;
+    padding: 1em;
+    text-align: left;
+}
+
+#footer
+{
+    background: #37488b;
+    color:white;
+    text-align: center;
+    padding: 0.5em;
+    /*Inicio del comentario
+    El font-size fue agregado por gusto del programador.
+    No pertenece a la clase de Git & Github
+    Final del comentario*/
+    font-size: smaller;
+}
