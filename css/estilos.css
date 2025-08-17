@@ -86,6 +86,15 @@ body {
     object-fit: fill; /* Ajusta la imagen al contenedor */
 }
 
+
+.card2 img {
+    width: auto; /* Mantiene el ancho original de la imagen */
+    position: relative;
+    top: 10px; /* Ajusta la posición vertical de la imagen */
+    height: 100px;
+    object-fit: fill; /* Ajusta la imagen al contenedor */
+}
+
 .card-content {
     padding: 20px;
 }
